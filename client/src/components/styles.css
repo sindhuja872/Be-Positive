@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Croissant+One&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.navbar-brand i{
+  color:#b30000;
+}
+.navbar-brand{
+  font-family:'Cedarville Cursive';
+  font-weight: 600;
+}
+.nav-link{
+  font-size:medium;
+  margin: 0;
+}
+.navbar-nav .nav-link:hover {
+    border-bottom:solid #b30000;
+}
+.animate-navbar{
+  background-color:whitesmoke;
+  box-shadow: 0px 8px 8px -7px rgba(0,0,0,.5);
+}
+
+.header{
+  margin-bottom: 5%;
+}
+
+.home{
+  background:url(Icons/heart-shaped-blood-bag-1440x430.png) no-repeat;
+  background-size: cover;
+}
+.home .container{
+  height:400px;
+}
+.home .container{
+    position: relative;
+    display: inline-block;
+}
+.home .container .caption h1{
+  font-family:'Cedarville Cursive';
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  left:0;
+  right:20%;
+  text-align: left;
+  top: 30%; /* Adjust this value to move the positioned div up and down*/
+  width: 40%; 
+  color:whitesmoke;
+}
+
+.about{
+  background:#eee;
+  font-family: 'Roboto';
+}
+
+.about .content .box{
+  margin:3rem 0;
+}
+.about .content .box a{
+  font-size: 1.3rem;
+  color:#2E2C2C;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+}
+.about .content h3 a:hover{
+  color:#b30000;
+}
+.about .content .box i{
+  padding: 0 1rem;
+  color:#b30000;
+  margin-right:2.0rem;
+}
+.about .content .box p{
+  font-size: 1rem;
+  padding-left: 6rem;
+  color:#424242;
+}
+
+.review{
+  background:url(Icons/testimonial-edit.jpg) no-repeat;
+  background-size: cover;
+}
+
+.review .container{
+  height:450px;
+}
+
+.review .heading{
+  color:#b30000;
+  text-align:center;
+  font-family: 'Pacifico';
+  font-size:3rem;
+  padding-top: 3rem;
+}
+
+.review .container .box-container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+ 
+}
+
+.review .container .box-container .box{
+  background:#fff;
+  width:18rem;
+  height:10rem;
+  margin:3.5rem 1rem;
+  padding:1.5rem;
+  position:relative;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.review .container .box-container .box img{
+  position:absolute;
+  bottom: -4.7rem;left: -0.2rem;
+  height:3rem;
+  width:3rem;
+  border-radius: 50%;
+  object-fit:cover;
+}
+
+.review .container .box-container .box p{
+  font-size: 1.2rem;
+  color:#161414;
+  font-family: 'Roboto';
+}
+
+.review .container .box-container .box h3{
+  display:block;
+  text-align:right;
+  font-size:1rem;
+  color:#b30000;
+  font-family: 'Pacifico';
+}
+
+.review .container .box-container .box::before{
+  content: '';
+  position:absolute;
+  bottom: -1rem;
+  left:0.45rem;
+  height:2rem;
+  width:2rem;
+  background:#fff;
+  transform:rotate(45deg);
+}
+.counter{
+  background:#eee;
+}
+.counter .box-container{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  padding:2rem 0;
+}
+
+.counter .box-container .box{
+  margin:2rem 5rem;
+  text-align:center;
+  width:120px;
+}
+.counter .box-container .box i{
+  color:#b30000;
+  font-size:2.5rem;
+}
+.counter .box-container .box span{
+  color:black;
+  font-size:1.8rem;
+  display:block;
+  padding:1rem 0;
+}
+.counter .box-container .box h5{
+  font-family:'Roboto';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+.donation-container{
+    background-image: url(Icons/b2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.donation-container .centertext h1{
+  width:900px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(78, 70, 70);
+  font-family: 'Cinzel';
+  animation: textanimation 1s ease-in-out;
+}
+
+@keyframes textanimation {
+  0% {
+      letter-spacing: 10px;
+  }
+  100% {
+      letter-spacing: 1px;
+  }
+}
+.donation-container .row{
+  width:100%;
+  padding-top:5%;
+}
+.donation-container .row h4 span{
+  color: #000;
+}
+.donation .row p{
+  font-size: medium;
+}
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+.bloodtypes{
+  background-image: whitesmoke;
+}
+.bloodtypes .heading{
+  font-family: 'Cinzel';
+}
+.bloodtypes .grid-container {
+display: grid;
+grid-template-columns: auto auto auto auto;
+padding-bottom: 8%;
+}
+.bloodtypes .card img{
+  height:190px;
+  width:250px;
+  padding-left:25%;
+}
+.bloodtypes .card{
+  text-align: center;
+  height:320px;
+  width:300px;
+  line-height: px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 whitesmoke;
+  background-color:whitesmoke;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap');
+.bloodtypes .th{
+  padding-top:5%;
+  font-family: 'Ibarra Real Nova', serif;
+}
+.bloodtypes .tb{
+  height:400px;
+  width:600px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.bloodtypes ul{
+  list-style-type: circle;
+}
+.bloodtypes li{
+  font-family: 'Roboto';
+}
+.bloodtypes .container{
+  background-color:whitesmoke;
+  height:200px;
+  border-radius: 10px;
+}
+.bloodtypes .container h2{
+  text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
+}
+.bloodtypes h1{
+  color:#b30000;
+  text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:3rem;
+  font-weight:bold;
+  padding-bottom: 2rem;
+}
+.bloodtypes h2,.card h2,p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.bloodtypes .card p{
+  font-weight: 600;
+}
+
+.eligibility{
+  background-color: #eee;
+}
+.eligibility h1{
+  color:#b30000;
+  text-align:center;
+  font-family: 'Dancing Script',sans-serif;
+  font-weight: 500;
+  padding-bottom: 3rem;
+}
+
+.eligibility .thecard{
+width: 400px;
+height: 250px;
+border-radius: 10px;
+transform-style: preserve-3d;
+transition: all 0.8s ease;
+}
+.eligibility .thecard:hover{
+transform: rotateY(180deg);
+}
+.eligibility .thefront{
+position: absolute;
+width: 400px;
+height: 250px;
+border-radius: 10px;
+backface-visibility:hidden;
+overflow:visible;
+background:lightskyblue;
+color: #000;
+}
+.eligibility .theback{
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+backface-visibility: hidden;
+background:yellow;
+color: #333;
+transform: rotateY(180deg);
+}
+.eligibility .grid-container {
+display: grid;
+grid-template-columns: auto auto ;
+grid-row-gap : 10%;
+grid-column-gap:5%;
+padding-left: 10%;
+padding-bottom: 10%;
+}
+.eligibility .theback li{
+size:20px;
+font-weight:900x;
+} 
+.eligibility .theback ul{
+  list-style-type: circle;
+  padding-top:20px;
+}
+.eligibility h3{
+  text-align: center;
+  font-family: 'Roboto';
+  padding-top: 5px;
+}
+
+.styledtable thead tr {
+    background-color: rgb(179, 0, 0);
+    color: #ffffff;
+    text-align: left;
+}
+
+.styledtable th,
+.styledtable td {
+    padding: 12px 15px;
+}
+.styledtable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.styledtable tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(179, 0, 0);
+}
+.styledtable tbody td button{
+    background-color:rgb(53, 162, 217);
+    color:black;
+    border-radius: 5px;
+}
+.table .container select{
+  border-radius:20px;
+  margin-left:2px;
+  width:max-content;
+}
+.table .container label{
+  font-weight: 500;
+}
+
+.tableStyle h2{
+  font-family:'Pacifico';
+  margin-bottom: 50px;
+  margin-left:40%;
+}
+
+.Login .image-col{
+  background: url(Icons/b10-theme-crop.jpg) no-repeat;
+  background-size: contain;
+}
+.Login h3{
+  font-family:'Pacifico';
+  margin-bottom: 50px;
+  margin-top:20px;
+  margin-left:10%;
+}
+.Login button{
+  margin-top:5%;
+  margin-left:20%;
+  margin-bottom:5%;
+}
+.Login{
+  background-color:whitesmoke;
+}
+
+
+/*.register .image-col{
+  background: url(Icons/thankyou2.jpg) no-repeat;
+  background-size:contain;
+  margin-top: 9%;
+  width: max-content;
+}*/
+.register .form-col{
+  margin-left: 7%;
+  margin-right:5%;
+  justify-content: center;
+}
+.register .row{
+  margin-left:10%;
+}
+.register h2{
+  font-family:'Cedarville Cursive';
+  margin-bottom: 50px;
+}
+.register button{
+  margin-bottom:5%;
+}
+.register .form-label{
+  font-family: 'Roboto';
+}
+
+.details .container{
+  justify-content: center;
+  display: flex;
+}
+.details .heading{
+  font-family: 'Dancing Script',cursive;
+}
+.details .row{
+  padding-top:20px;
+  font-size: large;
+  padding-left:25px;
+}
+.details h6{
+  margin-top: 10px;
+}
+.details h6 span{
+  font-weight: 400;
+}
+.details button{
+  background-color:rgb(179, 0, 0);
+  color:whitesmoke;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-top:7%;
+  margin-left:5%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.example{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik',sans-serif;
+}
+.example{
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: whitesmoke;
+}
+.example .container{
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  margin-bottom:15%;
+}
+
+.example .content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 20px 0 12px 0;
+}
+.example form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  margin-left:10px;
+}
+.example form .input-box span.details{
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.example .user-details .input-box input{
+  height: 45px;
+  width: 60%;
+  height: 45px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+.example form .user-details .input-box2{
+  margin-bottom: 15px;
+  width: calc(55% / 1 - 20px);
+  margin-left:10px;
+}
+.example form .input-box2 span.details{
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.example .user-details .input-box2 input{
+  height: 45px;
+  width: 60%;
+  height: 45px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+.example form .user-details .input-box3{
+  margin-bottom: 15px;
+  width: calc(100% /  - 30px);
+  margin-left:10px;
+}
+.example form .input-box3 span.details{
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.example .user-details .input-box3 input{
+  height: 45px;
+  width: 60%;
+  height: 45px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+.example .user-details .input-box2 select{
+  border-radius:20px;
+  width:max-content;
+  height:60%;
+  margin-top: 3px;
+}
+.example .user-details .input-box select{
+  border-radius:20px;
+  width:max-content;
+  height:60%;
+  margin-top: 3px;
+}
+.example .user-details .heading{
+  margin-bottom:30px;
+  margin-top:30px;
+  width: calc(100% / 1 - 20px);
+  font-family:'Pacifico';
+}
+ .example form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ .example form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ .example form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+  margin-right:5px;
+}
+.example #dot-1:checked ~ .category label .one,
+.example #dot-2:checked ~ .category label .two,
+.example #dot-3:checked ~ .category label .three{
+   background: rgb(179, 0, 0);
+   border-color: #d9d9d9;
+ }
+ .example form input[type="radio"]{
+   display: none;
+ }
+ .example form .button{
+   height: 45px;
+   width:min-content;
+   margin: 35px 0;
+   align-items: center;
+   
+ }
+ .example form .button button{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background:rgb(183, 11, 11);
+ }
+ .example form .button button:hover{
+  /* transform: scale(0.99); */
+  background: rgb(180, 75, 75);
+  }
+ @media(max-width: 584px){
+  .example .container{
+  max-width: 100%;
+}
+.example form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .example form .category{
+    width: 100%;
+  }
+  .example .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .example .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+    .example .container .content .category{
+    flex-direction: column;
+  }
+}
+
+.faqBlock{
+  display: 'block';
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg,rgb(152, 151, 151), rgb(70, 69, 69));
+  padding-top:5%;
+  padding-bottom: 5%;
+  font-family: 'Roboto';
+  font-size: larger;
+}
+.faqBlock p{
+  font-family:'Roboto';
+}
+.faqBlock .container-fluid .heading{
+  padding-left: 45%;
+  font-family:'Pacifico';
+  padding-bottom: 2%;
+  font-size: larger;
+  color:#b30000;
+}
+
+
